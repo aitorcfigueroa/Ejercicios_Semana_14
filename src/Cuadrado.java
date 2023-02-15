@@ -1,7 +1,11 @@
 public class Cuadrado extends Cuadrilatero implements Forma {
     private final double LADO;
-    public void dibujar_puntos(){};
-    public void rellenar_forma(){};
+    public void dibujar_puntos(){
+        System.out.println("Cuadrado puntos");
+    };
+    public void rellenar_forma(){
+        System.out.println("Cuadrado relleno");
+    };
     public double calcular_area() {
         return this.LADO * this.LADO;
     };

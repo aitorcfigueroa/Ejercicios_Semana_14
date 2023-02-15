@@ -1,8 +1,12 @@
 public class Rectangulo extends Cuadrilatero implements Forma {
     private final double BASE;
     private final double ALTURA;
-    public void dibujar_puntos(){};
-    public void rellenar_forma(){};
+    public void dibujar_puntos(){
+        System.out.println("Rectángulo puntos");
+    };
+    public void rellenar_forma(){
+        System.out.println("Rectángulo relleno");
+    };
     public double calcular_area() {
         return this.BASE * this.ALTURA;
     };

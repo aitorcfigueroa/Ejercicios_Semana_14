@@ -2,11 +2,15 @@ public class Triangulo extends Trigono implements Forma {
     private final double LADO1;
     private final double LADO2;
     private final double LADO3;
-    private final double SEMIPERIMETRO = calcular_perimetro()/2;
-    public void dibujar_puntos(){};
-    public void rellenar_forma(){};
+    public void dibujar_puntos(){
+        System.out.println("Triangulo puntos");
+    };
+    public void rellenar_forma(){
+        System.out.println("Triangulo relleno");
+    };
     public double calcular_area() {
-        return Math.sqrt(SEMIPERIMETRO*(SEMIPERIMETRO-LADO1)*(SEMIPERIMETRO-LADO2)*(SEMIPERIMETRO-LADO3));
+        final double SEMIPERIMETRO = calcular_perimetro()/2;
+        return Math.sqrt(SEMIPERIMETRO*(SEMIPERIMETRO-this.LADO1)*(SEMIPERIMETRO-this.LADO2)*(SEMIPERIMETRO-this.LADO3));
     };
     public double calcular_perimetro() {
         return this.LADO1 + this.LADO2 + this.LADO3;

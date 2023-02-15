@@ -2,6 +2,11 @@ public class Punto {
     public int pos_x;
     public int pos_y;
 
+    Punto(int x, int y) {
+        this.pos_x = x;
+        this.pos_y = y;
+    }
+
     public int getPos_x() {
         return pos_x;
     }
