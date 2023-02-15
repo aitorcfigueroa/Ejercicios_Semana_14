@@ -29,7 +29,7 @@ de implementación. Añade el cuerpo necesario a cada uno. Por ejemplo,
 en “calculo_area”, muestra por consola el área del cuadrado (lado x lado)
 > Pista: Puedes crear un atributo “lado” que se calcule en el constructor una
 vez pasados los puntos (la distancia entre un punto y otro es el lado y se
-calcula tal que 𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑖𝑎(𝑝1, 𝑝2) = (𝑥2 − 𝑥1)2 + (𝑦2 − 𝑦1)2
+calcula tal que 𝐷𝑖𝑠𝑡𝑎𝑛𝑐𝑖𝑎(𝑝1, 𝑝2) = \sqrt{(𝑥2 − 𝑥1)^2 + (𝑦2 − 𝑦1)^2}
 
 ## Ejercicio 4
 Crea la clase “Rectángulo”. Al igual que la anterior, heredará de
